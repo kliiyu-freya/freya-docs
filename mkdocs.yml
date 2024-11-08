@@ -1,0 +1,71 @@
+site_name: Freya
+site_url: https://github.com/kliiyu-freya/freya-docs
+site_author: Adrian Hiim Evjeberg
+
+# Repository
+repo_name: Freya
+repo_url: https://github.com/kliiyu-freya/freya
+
+# Copyright
+copyright: Copyright &copy; 2024 Adrian Hiim Evjeberg
+
+theme:
+  name: material
+  features:
+    - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - navigation.instant
+    - navigation.prefetch
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  #logo: assets/logo.png -- goes in docs/assets
+  #favicon: assets/favicon.ico
+
+nav:
+  - Home: index.md
+  - Setup:
+    - Installation: Setup/installation.md
+    - Running: Setup/running.md
+    - Using: Setup/usage.md
+  - Additional:
+    - Contribution: Additional/contributing.md
+    - FAQ: Additional/faq.md
+    - Changelog: Additional/changelog.md
+    - License: Additional/license.md
+    - Code Of Conduct: Additional/code_of_conduct.md
+    - 🚧 Work In Progress 🚧: 
+        - Command Line Interface: Additional/WIP/cli.md
+        - IoT Integration: Additional/WIP/iot.md
+        - Dashboard Functionality: Additional/WIP/dashboard.md
